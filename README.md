@@ -15,8 +15,12 @@
 
 ##### RDT 1.0 : There is no packet loss and bit errors in channel.
 ##### RDT 2.0 : There is no packet loss but It can occurs bit errors in channel.
+![Rdt2 0](https://user-images.githubusercontent.com/25572428/72453544-4f37be80-37d0-11ea-95e2-efd9b57a5869.PNG)
+
 ##### RDT 2.1 : In addition to all, Seq # is added and bit error can happens for ACK AND NACK
 ##### RDT 2.2 : All assumption same with Rdt 2.1 but there is no more NACK. We integrate the Timer instead of Nack .
 ##### RDT 3.0 : In this protocol channel is not  %100 safe so that Packet loss can occur, and also bit error frequently happens in a packet transmitting .
+![RDT3 0](https://user-images.githubusercontent.com/25572428/72453551-5068eb80-37d0-11ea-8202-1b56f8e72dbf.PNG)
 
 ## As I mentioned that is the simply implementation of RDT protocols. There are many assumption and disregarded things in projects.
+
